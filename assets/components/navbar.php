@@ -5,10 +5,10 @@
 
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <a class="navbar-brand" href="#">
-    <img src="assets/img/dr-sachin-gupta.jpg" alt="sachin_photo" class="photo_logo" width="30" height="24">
-  </a>
   <div class="container-fluid justify-content-end d-flex ">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/dr-sachin-gupta.jpg" alt="sachin_photo" class="photo_logo" width="30" height="24">
+    </a>
     <a class="navbar-brand" href="#">Dr. Sachin Gupta</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

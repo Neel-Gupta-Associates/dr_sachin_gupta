@@ -21,8 +21,6 @@
       justify-content: end;
     }
 
-
-
     .course:hover {
       background-color: #712cf9;
       color: white;
