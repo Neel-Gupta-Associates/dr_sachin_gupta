@@ -1,0 +1,11 @@
+.text-center{
+    text-align:center;
+}
+
+.d-flex{
+    display:flex;
+}
+
+:root{
+    --white: white;
+}
