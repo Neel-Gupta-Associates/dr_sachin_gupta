@@ -6,7 +6,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <a class="navbar-brand" href="#">
-    <img src="//." alt="sachin_photo" width="30" height="24">
+    <img src="assets/img/dr-sachin-gupta.jpg" alt="sachin_photo" class="photo_logo" width="30" height="24">
   </a>
   <div class="container-fluid justify-content-end d-flex ">
     <a class="navbar-brand" href="#">Dr. Sachin Gupta</a>
@@ -38,7 +38,7 @@
         </li>
       </ul>
       <form class="container-fluid justify-content-end d-flex">
-        <button class="btn btn-outline-success me-2 course" type="button">Courses</button>
+        <button class="btn btn-outline-success me-2 course" type="button">Courses <span class="badge text-bg-secondary">4</span></button>
       </form>
       <div class="theme d-flex">
         <div class="sun px-1">

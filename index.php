@@ -10,6 +10,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <style>
+    .photo_logo{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 45px;
+    margin-left:10px;
+    height: 60px;
+    padding: 0;
+    }
     .container-fluid {
       justify-content: end;
     }
@@ -30,6 +37,8 @@
     <?php 
     include("assets/components/navbar.php"); 
     ?>
+
+    
 
 
 
