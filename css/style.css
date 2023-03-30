@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.photo_logo {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 45px;
+    height: 60px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.container-fluid {
+    justify-content: end;
+}
+
+.course:hover {
+    background-color: #712cf9;
+    color: white;
+
+}
+
+.skeleton {
+    animation: skeleton-loading 1.5s linear infinite alternate;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 70%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 90%);
+
+    }
+}
