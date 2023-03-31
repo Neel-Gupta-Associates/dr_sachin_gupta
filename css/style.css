@@ -7,17 +7,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.hero-content {
-    width: 50%;
-}
-
-@media only screen and (max-width: 560px) {
-    .hero-content {
-        width: 70%;
-    }
-
-}
-
 .education ul li {
     list-style: none;
     margin: 0 10px;
