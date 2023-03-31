@@ -21,6 +21,18 @@
 
 }
 
+.hero-page {
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 90vh;
+}
+
+.hero-content {
+    margin-left: 50px;
+
+}
+
 .skeleton {
     animation: skeleton-loading 1.5s linear infinite alternate;
     width: 50px;
