@@ -116,3 +116,39 @@ footer p {
     padding: 40px 0;
     text-align: center;
 }
+
+
+/* Contact Form  */
+
+.contact-form {
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 90vh;
+    width: 85%;
+  }
+
+  .img-contact {
+    border: 2px solid red;
+    width: 60%;
+  }
+
+  .img-con {
+    width: 100%;
+    height: 100%;
+  }
+
+  
+
+  @media only screen and (max-width:500px) {
+    .img-contact {
+      display: none;
+      width: 40%;
+    }
+  }
+
+  @media only screen and (max-width:900px) {
+    .img-contact {
+      width: 45%;
+    }
+  }
