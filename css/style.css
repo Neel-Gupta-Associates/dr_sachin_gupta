@@ -79,7 +79,6 @@ html {
 
 section {
     padding: 60px 0;
-    /* min-height: 100vh;*/
 }
 
 
@@ -95,7 +94,6 @@ section {
 }
 
 .contact-content p::after {
-    background: #353C46;
     bottom: -30px;
     content: "";
     height: 1px;
@@ -113,7 +111,6 @@ section {
 }
 
 .contact-content{
-    color: #353c47;
     margin: 0 10px;
 }
 
