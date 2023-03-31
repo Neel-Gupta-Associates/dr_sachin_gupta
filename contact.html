@@ -14,7 +14,38 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>
+    .contact-form {
+      margin: auto;
+      border: 2px solid red;
+      border-radius: 5px;
+      height: 90vh;
+      width: 80%;
+    }
 
+    .img-contact {
+      border: 2px solid red;
+      width: 60%;
+    }
+
+    .img-con {
+      width: 100%;
+      height: 100%;
+    }
+
+    
+
+    @media only screen and (max-width:500px) {
+      .img-contact {
+        display: none;
+        width: 40%;
+      }
+    }
+
+    @media only screen and (max-width:900px) {
+      .img-contact {
+        width: 45%;
+      }
+    }
   </style>
 </head>
 
@@ -95,12 +126,28 @@
 
   </header>
 
+  <section class="contact" id="contact">
+    <h2 class="text-center">Contact Me</h2>
+
+    <div class="contact-cont">
+      <div class="contact-form d-flex">
+        <div class="img-contact">
+          <img src="assets/img/sample-photo.jpg" alt="Sample Images" class="img-con">
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
 
 
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
 <script src="js/script.js"></script>
 
