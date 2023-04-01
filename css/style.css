@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;550;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 html {
@@ -99,7 +101,7 @@ section {
     margin-bottom: 10px;
 }
 
-.contact-content{
+.contact-content {
     margin: 0 10px;
 }
 
@@ -122,33 +124,98 @@ footer p {
 
 .contact-form {
     margin: auto;
-    border: 2px solid red;
-    border-radius: 5px;
+    border: 1px solid #31353a;
+    border-radius: 10px;
     height: 90vh;
     width: 85%;
-  }
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
 
-  .img-contact {
-    border: 2px solid red;
+.img-contact {
+    border: 1px solid #31353a;
+    border-radius: 10px;
     width: 60%;
-  }
+}
 
-  .img-con {
+.img-con {
     width: 100%;
     height: 100%;
-  }
+}
 
-  
+.field{
+    border: 1px solid #31353a;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    margin-left: 5px;
+    width: 150%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
 
-  @media only screen and (max-width:500px) {
-    .img-contact {
-      display: none;
-      width: 40%;
+.field:focus{
+    box-shadow: 13px 14px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid /*#31353a*/ #3e076b;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.send-form{
+    outline: none;
+    padding: 5px;
+    border: 1px solid #31353a;
+    box-shadow: 13px 14px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:370px) {
+    .field{
+        width: 95%;
     }
-  }
+}
 
-  @media only screen and (max-width:900px) {
-    .img-contact {
-      width: 45%;
+@media only screen and (max-width:310px) {
+    .field{
+        width: 90%;
     }
-  }
+}
+
+@media only screen and (max-width:500px) {
+    .img-contact {
+        display: none;
+        width: 40%;
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .img-contact {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .field{
+        width: 110%;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .field{
+        width: 130%;
+    }
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
