@@ -236,3 +236,33 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Define the style for the custom scrollbar */
+  .scrollbar {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #777 #eee;
+  }
+  
+  /* Define the track style for the custom scrollbar */
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: #eee;
+  }
+  
+  /* Define the thumb style for the custom scrollbar */
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #777;
+    border-radius: 10px;
+    border: 3px solid #eee;
+  }
+  
+  /* Define the hover state for the thumb of the custom scrollbar */
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
