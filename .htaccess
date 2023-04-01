@@ -11,7 +11,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [L]
 
-# RewriteEngine On
-# RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteRule ^(.*)$ /maintenance.html [R=307,L]
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/maintenance/$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /maintenance/ [R=307,L]
