@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page not Found - 404 Error</title>
+  <meta charset="UTF-8">
+  <title>Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .logo {
+      max-width: 200px;
+      margin-bottom: 2rem;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .cta {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #f54757;
+      color: #fff;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    
+    .cta:hover {
+      background-color: #e3001d;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .container {
+        padding: 1rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .cta {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="container">
+    <img class="logo" src="./assets/img/dr-sachin-gupta.jpg" alt="Logo" width="80px">
+    <h1>Oops! This page could not be found.</h1>
+    <p>Sorry about that. You can go to our website by clicking the button below.</p>
+    <a class="cta" href="./">Go to the home page</a>
+  </div>
+
+  <footer>
+    <hr>
+    <p style="margin-bottom: 0;">Dr. Sachin Gupta - Copyright &copy; 2023 All Rights Reserved. sample.com <a href="" target="_blank"><i class="fab fa-facebook"></i></a> <a href="https://www.instagram.com/drsachin_gupta8/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/DrSachin_Gupta" target="_blank"><i class="fab fa-twitter"></i></a> </p>
+    <p style="margin-bottom: 0; padding: 0; padding-bottom: 10px;">Made by <a href="mailto:guptaneelhome@gmail.com">
+        Neel Gupta</a></p>
+
+  </footer>
 </body>
 </html>
