@@ -166,8 +166,13 @@ footer p {
     box-shadow: 13px 14px 12px rgba(0, 0, 0, 0.1);
 }
 
+.form-group label{
+    margin-bottom: 10px;
+}
 
-
+.fields{
+    padding: 15px;
+}
 
 
 
@@ -195,7 +200,19 @@ footer p {
 
 @media only screen and (max-width:900px) {
     .img-contact {
-        width: 45%;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .hero-img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .hero-txt{
+        text-align: center;
     }
 }
 
