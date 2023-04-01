@@ -1,0 +1,49 @@
+@media only screen and (max-width:370px) {
+    .field {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:310px) {
+    .field {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .img-contact {
+        display: none;
+        width: 40%;
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .img-contact {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .hero-txt {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .field {
+        width: 110%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .field {
+        width: 130%;
+    }
+}
