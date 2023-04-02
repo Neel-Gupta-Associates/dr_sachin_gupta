@@ -24,8 +24,12 @@ html {
     position: relative;
 }
 
-.img-hero{
-    /* margin-top: 19px; */
+.contact-btn{
+    transition: transform 0.2s ease-out;
+}
+
+.contact-btn:hover{
+    transform: translateY(-10px);
 }
 
 .photo_logo {
@@ -138,6 +142,39 @@ footer p {
 
 
 /* Contact Form End  */
+
+/* Contact Section Start  */
+
+.link {
+    margin: 8px 10px;
+    /* width: 30%; */
+    font-size: 1.25rem;
+    padding: 15px;
+    border: 2px solid #b9c3cc;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+    margin: 10px auto;
+  }
+  
+  .link:hover {
+    transform: translateY(-10px);
+  }
+
+  .link a {
+    text-decoration: none;
+  }
+
+  .link i {
+    margin-right: 10px;
+  }
+
+  .links {
+    margin: 15px;
+  }
+
+  /* Contact Section End  */
 
 
 
