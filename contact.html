@@ -107,7 +107,7 @@
         <div class="input-boxes">
           <div class="fields" style="margin-left: 20px;">
 
-            <form class="form-con" name="submit-to-google-sheet">
+            <form class="form-con" name="submit-to-google-sheet" method="POST">
 
               <div class="form-group">
                 <label for="name">Name:</label>
@@ -174,7 +174,7 @@
 
   form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
