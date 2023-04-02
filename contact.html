@@ -107,7 +107,7 @@
         <div class="input-boxes">
           <div class="fields" style="margin-left: 20px;">
 
-            <form class="form-con" name="submit-to-google-sheet" action="https://script.google.com/macros/s/AKfycbyS7fphGclmLlKzU-SQvYza4q7C3dkdQQpSpgADs3aMgozHnD-N5wThwI3YKphUQq6p/exec" method="POST">
+            <form class="form-con" name="google-sheet">
 
               <div class="form-group">
                 <label for="name">Name:</label>
@@ -171,7 +171,7 @@
 <script>
 
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyS7fphGclmLlKzU-SQvYza4q7C3dkdQQpSpgADs3aMgozHnD-N5wThwI3YKphUQq6p/exec';
-  const form = document.forms['submit-to-google-sheet'];
+  const form = document.forms['google-sheet'];
 
   form.addEventListener('submit', e => {
     e.preventDefault()
