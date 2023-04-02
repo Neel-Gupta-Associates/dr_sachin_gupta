@@ -107,31 +107,31 @@
         <div class="input-boxes">
           <div class="fields" style="margin-left: 20px;">
 
-            <form class="form-con" action="#" method="post">
+            <form class="form-con" name="submit-to-google-sheet">
 
               <div class="form-group">
                 <label for="name">Name:</label>
                 <br>
-                <input type="text" id="name" name="name" class="field" required placeholder="Your Name">
+                <input type="text" id="name" name="Name" class="field" required placeholder="Your Name">
               </div>
               <div class="form-group">
                 <label for="phone">Your Phone No. (With Country Code):</label>
                 <br>
-                <input type="number" id="phone" name="phone" class="field" required placeholder="Your Phone No.">
+                <input type="number" id="phone" name="Phone" class="field" required placeholder="Your Phone No.">
               </div>
               <div class="form-group">
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" class="field" required placeholder="Your Email Address">
+                <input type="email" id="email" name="Email" class="field" required placeholder="Your Email Address">
               </div>
               <div class="form-group">
                 <label for="subject">Subject:</label><br>
-                <input type="text" id="subject" name="subject" class="field" required placeholder="Subject">
+                <input type="text" id="subject" name="Subject" class="field" required placeholder="Subject">
               </div>
               <div class="form-group">
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" class="field" required></textarea>
+                <textarea id="message" name="Message" class="field" required></textarea>
               </div>
-              <button class="send-form" type="submit">Submit</button>
+              <button class="send-form" type="submit" name="submit">Submit</button>
 
             </form>
 
@@ -166,5 +166,18 @@
   integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
 <script src="js/script.js"></script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyS7fphGclmLlKzU-SQvYza4q7C3dkdQQpSpgADs3aMgozHnD-N5wThwI3YKphUQq6p/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 
 </html>
