@@ -176,6 +176,10 @@ footer p {
 
   /* Contact Section End  */
 
+  .visit{
+    width: 100px;
+  }
+
 
 
 input[type=number]::-webkit-outer-spin-button,
