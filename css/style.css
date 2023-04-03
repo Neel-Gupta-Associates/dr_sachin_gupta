@@ -191,3 +191,19 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+/* Image Gallery  */
+
+.gal-img {
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: 2px solid #31353a; */
+    border-radius: 5px;
+}
+
+.gal-img img{
+    margin: auto;
+    width: auto;
+    height: 350px;
+}
+
