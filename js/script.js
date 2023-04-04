@@ -15,7 +15,7 @@ function getVal(){
     var themeVal = html.getAttribute('data-bs-theme');
     localStorage.setItem('theme', themeVal);
 }
-setInterval(getVal, 50);
+setInterval(getVal, 100);
 
 var theme = localStorage.getItem('theme');
 html.setAttribute("data-bs-theme", theme);
