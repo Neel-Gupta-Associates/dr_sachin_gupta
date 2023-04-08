@@ -1,11 +1,11 @@
-.text-center{
-    text-align:center;
+.text-center {
+  text-align: center;
 }
 
-.d-flex{
-    display:flex;
+.d-flex {
+  display: flex;
 }
 
-:root{
-    --white: white;
+:root {
+  --white: white;
 }

@@ -1,72 +1,70 @@
-@media only screen and (max-width:370px) {
-    .field {
-        width: 95%;
-    }
+@media only screen and (max-width: 370px) {
+  .field {
+    width: 95%;
+  }
 }
 
-@media only screen and (max-width:310px) {
-    .field {
-        width: 90%;
-    }
+@media only screen and (max-width: 310px) {
+  .field {
+    width: 90%;
+  }
 }
 
-@media only screen and (max-width:500px) {
-    .img-contact {
-        display: none;
-        width: 40%;
-        height: 30vh;
-    }
+@media only screen and (max-width: 500px) {
+  .img-contact {
+    display: none;
+    width: 40%;
+    height: 30vh;
+  }
 }
 
-@media only screen and (max-width:900px) {
-    .img-contact {
-        width: 40%;
-    }
+@media only screen and (max-width: 900px) {
+  .img-contact {
+    width: 40%;
+  }
 }
 
-@media only screen and (max-width:991px) {
-    .hero-img {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
+@media only screen and (max-width: 991px) {
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
 
-    .hero-txt {
-        text-align: center;
-    }
+  .hero-txt {
+    text-align: center;
+  }
 }
 
-@media only screen and (max-width:1000px) {
-    .field {
-        width: 110%;
-    }
+@media only screen and (max-width: 1000px) {
+  .field {
+    width: 110%;
+  }
 }
 
-@media only screen and (max-width:1200px) {
-    .field {
-        width: 130%;
-    }
+@media only screen and (max-width: 1200px) {
+  .field {
+    width: 130%;
+  }
 }
 
-
-@media only screen and (max-width:560px){
-    .gal-img img{
-        width:350px;
-        height:300px;
-    }
+@media only screen and (max-width: 560px) {
+  .gal-img img {
+    width: 350px;
+    height: 300px;
+  }
 }
 
-@media only screen and (max-width:450px){
-    .gal-img img{
-        width:300px;
-        height:200px;
-    }
+@media only screen and (max-width: 450px) {
+  .gal-img img {
+    width: 300px;
+    height: 200px;
+  }
 }
 
-@media only screen and (max-width:320px){
-    .gal-img img{
-        width:240px;
-        height:170px;
-    }
+@media only screen and (max-width: 320px) {
+  .gal-img img {
+    width: 240px;
+    height: 170px;
+  }
 }
-
