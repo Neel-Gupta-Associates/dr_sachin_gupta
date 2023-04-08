@@ -27,8 +27,10 @@
 
 
   <style>
-
-
+    .bg-w-no-u {
+      color: white;
+      text-decoration: none;
+    }
   </style>
 </head>
 
@@ -117,12 +119,13 @@
         <div class="col-lg-6 hero-txt">
           <h1 class="display-5 fw-bold lh-1 mb-3">Dr. Sachin Gupta</h1>
           <p class="lead">Hi!, I am Dr. Sachin Gupta, Currently working as Assistant Professor in Department of Business
-            Administration at Mohanlal Sukhadia University, Udaipur (City of Lakes)-313001, Rajasthan, India. I have
-            written 70+ Paper & guided many research scholars in Commerce
-            & Management Studies for their Doctoral Research.</p>
+            Administration at <a href="https://www.mlsu.ac.in/" target="_blank">Mohanlal Sukhadia University</a>,
+            Udaipur (City of Lakes)-313001, Rajasthan, India. I have written 70+ Paper & guided many research scholars
+            in Commerce & Management Studies for their Doctoral Research.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start btn-contact">
-            <button onclick="location.href='/#contact-me'" type="button"
-              class="btn btn-primary btn-lg px-4 me-md-2 contact-btn">Contact Me</button>
+            <button onclick="location.href='/#contact-me'" class="btn btn-primary btn-lg px-4 me-md-2 contact-btn">Contact Me</button>
+
+            <button class="btn btn-primary btn-lg px-4 me-md-2 contact-btn"><a href="https://www.mlsu.ac.in/fac_profile.php?deptid=12&id=531" class="pow-btn bg-w-no-u" target="_blank"> Proof of Work </a></button>
           </div>
         </div>
       </div>
@@ -136,7 +139,7 @@
     <div class="card mb-3" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="assets/img/dr-sachin-gupta.jpg" class="img-fluid rounded-start" alt="...">
+          <img src="assets/img/dr-sachin-gupta.jpg" class="img-fluid rounded-start" alt="Dr. Sachin Gupta">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -161,11 +164,13 @@
 
   <h2 class="text-center" style="margin-bottom: 20px;">CV</h2>
   <div class="pdf-cv d-flex" id="pdf-cv" style="justify-content: center;">
-    <!-- <embed src="./assets/pdf/CV.pdf" width="810" height="775" type="application/pdf"> -->
 
 
     <object data="./assets/pdf/CV.pdf" type="application/pdf" width="60%" height="800px">
-      <p>Sorry, your browser doesn't support embedded PDFs.</p>
+      <button class="btn btn-primary "><a href="/assets/pdf/CV-Dr-Sachin.pdf" download class="bg-w-no-u">Download
+          CV</a></button>
+      <br>
+      <p>CV will be downloaded and saved in your Files App(in downloads)</p>
     </object>
 
   </div>
