@@ -1,3 +1,5 @@
+@import url("/css/variables.css");
+
 @media only screen and (max-width: 370px) {
   .field {
     width: 95%;

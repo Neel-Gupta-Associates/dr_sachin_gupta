@@ -15,6 +15,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/utilities.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GXL07CJMJ"></script>
   <script>
@@ -27,10 +28,7 @@
 
 
   <style>
-    .bg-w-no-u {
-      color: white;
-      text-decoration: none;
-    }
+    
   </style>
 </head>
 
@@ -69,7 +67,7 @@
                 Card</a>
             </li>
             <li class="nav-item visit" style="width: 110px;">
-              <a target="_blank" class="nav-link disabled" href="/phd-studs/">PhD Student</a>
+              <a target="_blank" class="nav-link disabled" href="/phd-studs/">PhD Students</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/gallery/">Gallery</a>
@@ -79,6 +77,8 @@
             <button class="btn btn-outline-success me-2 course disabled" onclick="location.href = 'courses/';"
               type="button">Courses <span class="badge text-bg-secondary">0</span></button>
           </form>
+
+
           <div class="theme d-flex" style="margin-right: 15px;">
             <div class="sun px-1">
               <button type="button" class="btn btn-light">
@@ -169,7 +169,7 @@
   </section>
 
   <h2 class="text-center" id="pdf-cv" style="margin-bottom: 20px;">CV</h2>
-  <div class="pdf-cv d-flex"  style="justify-content: center;">
+  <div class="pdf-cv d-flex" style="justify-content: center;">
 
 
     <object data="./assets/pdf/CV.pdf" type="application/pdf" width="60%" height="800px">
@@ -219,6 +219,12 @@
   </section>
 
 
+
+  <div class="g-trans">
+    <div id="google_translate_element" class="g-translate"></div>
+  </div>
+
+
   <footer>
     <hr>
     <p style="margin-bottom: 0;">Dr. Sachin Gupta - Copyright &copy; 2023 All Rights Reserved. sample.com <a
@@ -241,5 +247,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/g_translate.js"></script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </html>

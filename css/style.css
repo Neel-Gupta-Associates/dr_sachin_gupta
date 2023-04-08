@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;550;600;700;800;900&display=swap");
 
+@import url("/css/variables.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -149,11 +151,9 @@ footer p {
   /* width: 30%; */
   font-size: 1.25rem;
   padding: 15px;
-  border: 2px solid #b9c3cc;
-  border-radius: 15px;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border: 1.5px solid#DEC1FF;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   cursor: pointer;
   transition: transform 0.2s ease-out;
   margin: 10px auto;
@@ -178,7 +178,7 @@ footer p {
 /* Contact Section End  */
 
 .visit {
-  width: 100px;
+  width: 105px;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -207,4 +207,17 @@ input[type="number"] {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+/* Google Translate  */
+
+.g-trans {
+  width: 155px;
+  height: 50px;
+  border: 1px solid ;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--bs-primary-bg-subtle);
 }
