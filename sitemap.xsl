@@ -196,7 +196,7 @@ XML Sitemap<xsl:if test="sm:sitemapindex"> Index</xsl:if>
 <xsl:if test="not(sm:sitemapindex)"> - <span><xsl:value-of select="sm:urlset/sm:url/sm:loc"/></span></xsl:if>
                 </nav>
 <h3>
-<!-- <span><a href="https://pro-sitemaps.com">PRO-Sitemaps.com</a></span> -->
+<span><a href="https://pro-sitemaps.com">PRO-Sitemaps.com</a></span>
 <xsl:choose>
 <xsl:when  test="sm:sitemapindex"> 
 The number of sitemap files listed in this index: <xsl:value-of select="count(sm:sitemapindex/sm:sitemap)"/>
@@ -219,8 +219,8 @@ The number of pages in this sitemap file: <xsl:value-of select="count(sm:urlset/
 </div>
 
 <div id="footer">
-<!-- Created using PRO Sitemaps Service, -->
-<!-- Copyright (c)2005-2022 <a href="https://pro-sitemaps.com/">PRO-Sitemaps.com</a> -->
+Created using PRO Sitemaps Service,
+Copyright (c)2005-2022 <a href="https://pro-sitemaps.com/">PRO-Sitemaps.com</a>
 </div>
 
 </body>
