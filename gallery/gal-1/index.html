@@ -17,12 +17,11 @@
 
 <body>
 
-
   <header id="header" class="header">
 
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky">
       <div class="container-fluid justify-content-end d-flex ">
         <a class="navbar-brand" href="/">
           <img src="/assets/img/dr-sachin-gupta.jpg" alt="sachin_photo" class="photo_logo">
@@ -37,29 +36,30 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="blog/">Blogs</a>
+              <a target="_blank" class="nav-link disabled" href="blog/">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#pdf-cv">CV</a>
+              <a class="nav-link" href="#pdf-cv">CV</a>
             </li>
-            <li class="nav-item">
-              <a target="_blank" class="nav-link visit" href="/assets/img/Dr.-Sachin-Gupta-Visiting-Card.jpg">Visiting
+            <li class="nav-item visit">
+              <a target="_blank" class="nav-link" href="/assets/img/Dr.-Sachin-Gupta-Visiting-Card.jpg">Visiting
                 Card</a>
+            </li>
+            <li class="nav-item visit" style="width: 110px;">
+              <a target="_blank" class="nav-link disabled" href="/phd-studs/">PhD Student</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/gallery/">Gallery</a>
             </li>
-            </li>
           </ul>
           <form class="container-fluid justify-content-end d-flex">
-            <button class="btn btn-outline-success me-2 course" onclick="location.href = '/courses/';"
-              type="button">Courses
-              <span class="badge text-bg-secondary">4</span></button>
+            <button class="btn btn-outline-success me-2 course disabled" onclick="location.href = 'courses/';"
+              type="button">Courses <span class="badge text-bg-secondary">0</span></button>
           </form>
-          <div class="theme d-flex">
+          <div class="theme d-flex" style="margin-right: 15px;">
             <div class="sun px-1">
               <button type="button" class="btn btn-light">
 
