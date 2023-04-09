@@ -22,13 +22,31 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-9GXL07CJMJ');
   </script>
 
 
   <style>
-    
+    .g-translate {
+      display: flex;
+      justify-content: center;
+    }
+
+    .qual {
+      font-size: 1.7rem;
+    }
+
+    .qualification {
+      /* border: 2px solid red; */
+      border-radius: 5px;
+
+    }
+
+    .autoTypeSec {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
   </style>
 </head>
 
@@ -57,7 +75,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a target="_blank" class="nav-link disabled" href="blog/">Blogs</a>
+              <a target="_blank" class="nav-link disabled" href="/blog/">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#pdf-cv">CV</a>
@@ -66,15 +84,15 @@
               <a target="_blank" class="nav-link" href="/assets/img/Dr.-Sachin-Gupta-Visiting-Card.jpg">Visiting
                 Card</a>
             </li>
-            <li class="nav-item visit" style="width: 110px;">
-              <a target="_blank" class="nav-link disabled" href="/phd-studs/">PhD Students</a>
+            <li class="nav-item" style="width: 134px;">
+              <a target="_blank" class="nav-link disabled" href="/phd-studs/">Doctoral Scholars</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/gallery/">Gallery</a>
             </li>
           </ul>
           <form class="container-fluid justify-content-end d-flex">
-            <button class="btn btn-outline-success me-2 course disabled" onclick="location.href = 'courses/';"
+            <button class="btn btn-outline-success me-2 course disabled" onclick="location.href = '/courses/';"
               type="button">Courses <span class="badge text-bg-secondary">0</span></button>
           </form>
 
@@ -120,8 +138,8 @@
             width="280" height="500" loading="lazy">
         </div>
         <div class="col-lg-6 hero-txt">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Dr. Sachin Gupta</h1>
-          <p class="lead">Hi!, I am Dr. Sachin Gupta, Currently working as Assistant Professor in Department of Business
+          <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I am <span class="auto-type"></span></h1>
+          <p class="lead">Currently working as Assistant Professor in Department of Business
             Administration at <a href="https://www.mlsu.ac.in/" target="_blank">Mohanlal Sukhadia University</a>,
             Udaipur (City of Lakes)-313001, Rajasthan, India. I have written 70+ Paper & guided many research scholars
             in Commerce & Management Studies for their Doctoral Research.</p>
@@ -131,7 +149,7 @@
 
             <button class="btn btn-primary btn-lg px-4 me-md-2 contact-btn"><a
                 href="https://www.mlsu.ac.in/fac_profile.php?deptid=12&id=531" class="pow-btn bg-w-no-u"
-                target="_blank"> Proof of Work </a></button>
+                target="_blank">University Profile</a></button>
           </div>
         </div>
       </div>
@@ -168,16 +186,21 @@
     </div>
   </section>
 
+  <section class="d-flex qualification">
+    <div class="autoTypeSec">
+      <p class="qual-p"> <b class="qual text-center"> I have Completed <span class="auto-type-2"></span></b></p>
+    </div>
+  </section>
+
   <h2 class="text-center" id="pdf-cv" style="margin-bottom: 20px;">CV</h2>
-  <div class="pdf-cv d-flex" style="justify-content: center;">
+  <div class="pdf-cv " style="justify-content: center;">
 
-
-    <object data="./assets/pdf/CV.pdf" type="application/pdf" width="60%" height="800px">
+    <embed class="" src="/assets/pdf/CV-Dr-Sachin.pdf" type="" width="60%" height="900px"
+      style="display: block;margin: auto;">
+    <div class="download-btn mt-4 d-flex" style="display:block; justify-content: center;">
       <button class="btn btn-primary "><a href="/assets/pdf/CV-Dr-Sachin.pdf" download class="bg-w-no-u">Download
           CV</a></button>
-      <br>
-      <!-- <p>CV will be downloaded and saved in your Files App(in downloads)</p> -->
-    </object>
+    </div>
 
   </div>
 
@@ -254,5 +277,23 @@
 <script type="text/javascript" src="/js/g_translate.js"></script>
 <script type="text/javascript"
   src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+<script>
+  var typed = new Typed(".auto-type", {
+    strings: ["Dr. Sachin Gupta", "Faculty of Entrepreneurship", "Assistant Professor",],
+    typeSpeed: 70,
+    backSpeed: 50,
+    loop: true
+  });
+
+  var typed = new Typed(".auto-type-2", {
+    strings: [" M.Phill", " PhD", " M.Com", "MBA", "UGC-NET", "FDPM", "Post Graduate Certificate Programme in Finance-IIM-Indore", "Diploma in IFRS-University of Delhi"],
+    typeSpeed: 70,
+    backSpeed: 50,
+    loop: true
+  });
+</script>
 
 </html>
