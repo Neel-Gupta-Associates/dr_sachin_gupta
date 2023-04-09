@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;550;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;550;600&display=swap');
+
 
 @import url("/css/variables.css");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 html {
@@ -18,7 +20,7 @@ html {
 }
 
 .education ul li span {
-  color: #ff004f;
+  color: var(--bs-primary-text-emphasis);
   font-size: 14px;
   font-weight: 500;
 }
@@ -39,7 +41,7 @@ html {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  width: 45px;
+  width: 42px;
   height: 60px;
   margin-left: 10px;
   padding: 0;
@@ -178,7 +180,7 @@ footer p {
 /* Contact Section End  */
 
 .visit {
-  width: 105px;
+  width: 110px;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -220,4 +222,25 @@ input[type="number"] {
   top: 150px;
   right: 0;
   background-color: var(--bs-primary-bg-subtle);
+}
+
+.g-translate {
+  display: flex;
+  justify-content: center;
+}
+
+.qual {
+  font-size: 1.7rem;
+}
+
+.qualification {
+  /* border: 2px solid red; */
+  border-radius: 5px;
+
+}
+
+.autoTypeSec {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
