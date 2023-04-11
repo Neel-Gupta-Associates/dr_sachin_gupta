@@ -1,1 +1,0 @@
-sitemap: https://dr-sachin-gupta.pages.dev/sitemap.xml
