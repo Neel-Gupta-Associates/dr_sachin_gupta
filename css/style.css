@@ -245,15 +245,21 @@ input[type="number"] {
   margin: auto;
 }
 
+.phone-nav{
+  margin: auto;
+}
+
 
 ::-webkit-scrollbar {
   width: 10px; /* Width of the scrollbar */
+  border: radius 15%;
+  border-radius: 15px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #7a0c0c; /* Color of the scrollbar track */
+  background: #126840; /* Color of the scrollbar track */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2b1515; /* Color of the scrollbar thumb */
+  background: #233242; /* Color of the scrollbar thumb */
 }
