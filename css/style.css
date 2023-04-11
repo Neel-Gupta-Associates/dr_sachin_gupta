@@ -245,10 +245,9 @@ input[type="number"] {
   margin: auto;
 }
 
-.phone-nav{
+.phone-nav {
   margin: auto;
 }
-
 
 ::-webkit-scrollbar {
   width: 10px;
