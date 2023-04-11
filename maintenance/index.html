@@ -1,1 +1,121 @@
-<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><title>Site Maintenance - Dr. Sachin Gupta</title><meta name=viewport content="width=device-width, initial-scale=1"><link rel="shortcut icon" href="assets/img/dr-sachin-gupta-favicon.ico" type="image/x-icon"><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css rel=stylesheet><link rel=stylesheet href=/css/style.css><style>*{box-sizing:border-box}body{margin:0;padding:0;font-family:'Montserrat',sans-serif;background-color:#f9f9f9;color:#333}.container{max-width:960px;margin:0 auto;padding:2rem;text-align:center}.logo{max-width:200px;margin-bottom:2rem}h1{font-size:3rem;margin-bottom:2rem}p{font-size:1.5rem;margin-bottom:2rem}.logo_maintenance{width:100px}@media screen and (max-width:767px){.container{padding:1rem}h1{font-size:2rem;margin-bottom:1rem}p{font-size:1rem;margin-bottom:1rem}}</style></head><body><div class=container><img class=logo_maintenance src=/assets/img/dr-sachin-gupta.jpg alt=Logo><h1>We'll be back soon!</h1><p>Our website is currently undergoing scheduled maintenance. We should be back shortly. Thank you for yourpatience.</p><p>Till then You can check our Social Media</p><div class=social><a href="https://www.facebook.com/profile.php?id=100004782729413&mibextid=ZbWKwL" target=_blank><i class="fab fa-facebook"></i></a> <a href=https://www.instagram.com/drsachin_gupta8/ target=_blank><i class="fab fa-instagram"></i></a> <a href=https://twitter.com/DrSachin_Gupta target=_blank><i class="fab fa-twitter"></i></a></div></div><footer><hr><p style=margin-bottom:0>Dr. Sachin Gupta - Copyright &copy; 2023 All Rights Reserved. sample.com</p><p style=margin-bottom:0;padding:0;padding-bottom:10px>Made by <a href=mailto:guptaneelhome@gmail.com>Neel Gupta</a></p></footer></body></html>
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Site Maintenance - Dr. Sachin Gupta</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/img/dr-sachin-gupta-favicon.ico" type="image/x-icon">
+    <link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css rel=stylesheet>
+    <link rel=stylesheet href=/css/style.css>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f9f9;
+            color: #333
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 2rem
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem
+        }
+
+        .logo_maintenance {
+            width: 100px
+        }
+
+        @media screen and (max-width:767px) {
+            .container {
+                padding: 1rem
+            }
+
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 1rem
+            }
+
+            p {
+                font-size: 1rem;
+                margin-bottom: 1rem
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class=container><img class=logo_maintenance src=/assets/img/dr-sachin-gupta.jpg alt=Logo>
+        <h1>We'll be back soon!</h1>
+        <p>Our website is currently undergoing scheduled maintenance. We should be back shortly. Thank you for
+            yourpatience.</p>
+
+        <!-- Display the countdown timer in an element -->
+        <p id="demo"></p>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("March 15, 2023 15:37:25").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+
+        <p>Till then You can check our Social Media</p>
+        <div class=social><a href="https://www.facebook.com/profile.php?id=100004782729413&mibextid=ZbWKwL"
+                target=_blank><i class="fab fa-facebook"></i></a> <a href=https://www.instagram.com/drsachin_gupta8/
+                target=_blank><i class="fab fa-instagram"></i></a> <a href=https://twitter.com/DrSachin_Gupta
+                target=_blank><i class="fab fa-twitter"></i></a></div>
+    </div>
+    <footer>
+        <hr>
+        <p style=margin-bottom:0>Dr. Sachin Gupta - Copyright &copy; 2023 All Rights Reserved. sample.com</p>
+        <p style=margin-bottom:0;padding:0;padding-bottom:10px>Made by <a href=mailto:guptaneelhome@gmail.com>Neel
+                Gupta</a></p>
+    </footer>
+</body>
+
+</html>
