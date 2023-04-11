@@ -25,3 +25,6 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.dr-sachin-gupta\.pages\.dev [NC]
+RewriteRule ^(.*)$ https://dr-sachin-gupta.pages.dev/$1 [L,R=301]
