@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;550;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;550;600&display=swap");
 
 @import url("/css/variables.css");
+
 
 * {
   margin: 0;
@@ -251,6 +251,40 @@ input[type="number"] {
 
 .img-gal-card{
   margin: auto;
+}
+
+
+
+/* Papers */
+
+.paper-pub-count{
+  font-size: 1.4rem;
+  text-align: center;
+}
+.paper-pub-head{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.paper-pub-flex{
+  border: 2px solid var(--bla);
+  border-radius: 10px;
+}
+
+.paper-pub-pro{
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  width: 16%;
+}
+
+@media only screen and (max-width: 760px){
+  .paper-pub-flex{
+    flex-direction: column;
+  }
+
+  .paper-pub-pro{
+    width: 80%;
+  }
 }
 
 ::-webkit-scrollbar {
