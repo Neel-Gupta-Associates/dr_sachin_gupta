@@ -277,14 +277,30 @@ input[type="number"] {
   width: 16%;
 }
 
-@media only screen and (max-width: 760px){
-  .paper-pub-flex{
-    flex-direction: column;
-  }
+.studs-img {
+  width: 153px;
+  height: 231px;
+}
 
-  .paper-pub-pro{
-    width: 80%;
-  }
+.studs-pro {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+
+.studs-name {
+  font-size: 2rem;
+}
+
+.studs-co {
+  font-size: 1.3rem;
+}
+
+.studs-year {
+  font-size: 1.3rem;
+}
+
+.studs-title {
+  font-size: 1.5rem;
 }
 
 ::-webkit-scrollbar {
