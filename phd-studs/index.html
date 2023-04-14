@@ -31,10 +31,37 @@
             height: 231px;
         }
 
-        .studs-pro{
+        .studs-pro {
             border: 1px solid var(--border);
             border-radius: 5px;
         }
+
+        .studs-name {
+            font-size: 2rem;
+        }
+
+        .studs-title {
+            font-size: 1.5rem;
+        }
+
+        .studs-table tr,
+        .studs-table th,
+        .studs-table td {
+            border: 2px solid red;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            /* padding: 8px; */
+        }
+
     </style>
 </head>
 
@@ -125,13 +152,33 @@
         <div class="studs-con">
 
             <div class="studs-grid" style="display: grid;">
-                <div class="studs-pro m-4">
+                <!-- <div class="studs-pro m-4 d-flex">
                     <img src="/assets/img/dr-sachin-gupta.webp" alt="Studs" class="studs-img">
 
-                    <div class="studs-indo">
-
+                    <div class="studs-info m-auto">
+                        <p class="studs-name">Dr. Sachin Gupta</p>
+                        <p class="studs-title">Title: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo natus deserunt nesciunt perferendis itaque voluptas.</p>
                     </div>
-                </div>
+                </div> -->
+
+                <table class="studs-table" style="border: 2px solid red;" cellspacing=0>
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Photo</th>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><img style="width: 102px;height: 154px;" src="/assets/img/dr-sachin-gupta.webp" alt=""></td>
+                        <td>Dr. Sachin Gupta</td>
+                        <td>Physics</td>
+                        <td>2003</td>
+                    </tr>
+                </table>
+
+
             </div>
 
         </div>
@@ -154,7 +201,8 @@
                 target="_blank"><i class="fab fa-facebook"></i></a> <a class="footer-social"
                 href="https://www.instagram.com/drsachin_gupta8/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a class="footer-social" href="https://twitter.com/DrSachin_Gupta" target="_blank"><i
-                    class="fab fa-twitter"></i></a> </p>
+                    class="fab fa-twitter"></i></a>
+        </p>
 
 
         <p style="margin-bottom: 0; padding: 0; padding-bottom: 10px;">Website Designed by <a
